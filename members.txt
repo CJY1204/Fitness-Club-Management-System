@@ -1,0 +1,2 @@
+MS001|pass123|m1|19|1.65|50.0|Silver|Active
+MB002|pass3|m3|20|1.7|60.0|Basic|Active
