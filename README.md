@@ -1,10 +1,13 @@
 # Fitness Club Management System
+
 A Java console-based application that digitizes the operations of a fitness club — member registration, class scheduling, equipment tracking, and administrative reporting — built as a team project for the *Object-Oriented Programming Techniques* course.
 
 ## Overview
+
 The system supports three distinct user roles (**Member**, **Trainer**, **Admin**), each with their own dashboard and permissions. It demonstrates core OOP principles including abstraction, inheritance, polymorphism, encapsulation, and object association through a fully working membership and booking workflow.
 
 ## Features
+
 - **Role-based Authentication** — separate login flows for Members, Trainers, and Admins
 - **Tiered Membership System** — Basic, Silver, and Gold tiers (via an abstract `Membership` class and subclasses), each with different pricing, sauna access, and booking priority
 - **Class Scheduling & Booking** — members can view and book fitness classes, with Gold members receiving priority slots
@@ -14,11 +17,13 @@ The system supports three distinct user roles (**Member**, **Trainer**, **Admin*
 - **Persistent Data Storage** — all data (members, bookings, equipment, trainers) is saved to text files between sessions
 
 ## Tech Stack
+
 - **Language:** Java
 - **Paradigm:** Object-Oriented Programming (Abstraction, Inheritance, Polymorphism, Encapsulation)
 - **Data Storage:** Flat-file storage (`.txt`) for members, bookings, and equipment records
 
 ## My Role
+
 **Project Leader** — coordinated task allocation across a 4-member team and oversaw module integration.
 
 Personally designed and implemented the **Membership & Member Services module**, including:
@@ -26,6 +31,7 @@ Personally designed and implemented the **Membership & Member Services module**,
 - `Member` class handling personal information, BMI calculation, profile display, class viewing, and booking cancellation
 
 ## How to Run
+
 1. Ensure you have a JDK installed (Java 8 or above).
 2. Compile all `.java` source files:
    ```
@@ -35,10 +41,12 @@ Personally designed and implemented the **Membership & Member Services module**,
    ```
    java FitnessSystem
    ```
-4. Follow the on-screen menu/DB data to register as a member, log in, or access the admin/trainer portals.
+4. Follow the on-screen menu to register as a member, log in, or access the admin/trainer portals.
 
 ## Project Structure (Key Classes)
+
 | Class | Responsibility |
+|---|---|
 | `Membership`, `BasicMembership`, `SilverMembership`, `GoldMembership` | Membership tiers and fee logic |
 | `Member` | Member profile, BMI, bookings |
 | `FitnessClass`, `Booking` | Class scheduling and booking management |
